@@ -1,0 +1,29 @@
+
+# SEGURANÇA E CREDENCIAIS (NUNCA SUBIR)
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+aws-credentials.json
+
+# AMBIENTE VIRTUAL E CACHE DO PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+pip-log.txt
+
+# TESTES E COBERTURA (Pytest)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ARQUIVOS DE SISTEMA OPERACIONAL E IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
